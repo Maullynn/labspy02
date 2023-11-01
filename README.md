@@ -77,6 +77,16 @@ Dengan demikian, program akan menentukan bilangan terbesar di antara ketiga bila
 ## OUTPUT
 ![latihan3](https://github.com/Maullynn/labspy02/assets/144296695/3a50a321-8006-4fbc-9231-43accf3814ec)
 
+## PERULANGAN 
+- kolom = baris: Variabel kolom juga diatur sama dengan baris. Ini berarti bahwa segitiga yang dihasilkan akan memiliki jumlah kolom yang sama dengan jumlah baris.
+- Loop pertama (for bar in range(baris)) digunakan untuk mengiterasi melalui setiap baris dalam segitiga. Variabel bar akan berubah dari 0 hingga 9 (karena baris diatur ke 
+  10).
+- Loop kedua (for col in range(kolom)) digunakan untuk mengiterasi melalui setiap kolom dalam segitiga. Variabel col akan berubah dari 0 hingga 9.
+- tab = bar + col: Variabel tab digunakan untuk menghitung jumlah baris dan kolom saat ini. Ini akan menghasilkan nilai yang bertambah secara berurutan dengan setiap baris 
+dan kolom yang ditambahkan.
+![perulangan1](https://github.com/Maullynn/labspy02/assets/144296695/91cacfcc-ee0b-44f9-9406-08c2cfbae6b3)
+
+
 
 
 ## pengerjaan
