@@ -1,4 +1,4 @@
-| Variable       | Isi              |
+| Variable       | DATA DIR         |
 | ---------------| ---------------- |
 | Nama           | Muhammad Maulana |
 | NIM            | 312310475        |
