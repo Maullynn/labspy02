@@ -69,25 +69,11 @@ Dengan demikian, program akan menentukan bilangan terbesar di antara ketiga bila
 ## OUTPUT
 ![latihan2](https://github.com/Maullynn/labspy02/assets/144296695/d819effd-aabb-47cd-b9d8-689cd835d93f)
 ## LATIHAN 3
-# Modal awal
-modal_awal = 100000000  # 100 juta
-# Inisialisasi total keuntungan
-total_keuntungan = 0
-# Bulan 1 dan 2
-total_keuntungan += 0  # Tidak ada laba pada bulan 1
-total_keuntungan += 0  # Tidak ada laba pada bulan 2
-# Bulan 3
-total_keuntungan += modal_awal * 0.01  # Laba 1% dari modal awal
-# Bulan 4
-total_keuntungan += 0  # Tidak ada peningkatan laba
-# Bulan 5
-total_keuntungan += modal_awal * 0.05  # Laba 5% dari modal awal
-# Bulan 6 dan 7
-total_keuntungan += 0  # Tidak ada peningkatan laba pada bulan 6 dan 7
-# Bulan 8
-total_keuntungan += modal_awal * 0.03  # Laba 3% dari modal awal
-# Total keuntungan selama 8 bulan
-print("Total Keuntungan selama 8 bulan adalah: Rp", total_keuntungan)
+- total_keuntungan += modal_awal * 0.01: Pada bulan 3, laba 1% dari modal awal ditambahkan ke total_keuntungan.
+- total_keuntungan += modal_awal * 0.05: Pada bulan 5, laba 5% dari modal awal ditambahkan ke total_keuntungan.
+- total_keuntungan += modal_awal * 0.03: Pada bulan 8, laba 3% dari modal awal ditambahkan ke total_keuntungan.
+- print("Total Keuntungan selama 8 bulan adalah: Rp", total_keuntungan): Ini adalah perintah cetak yang digunakan untuk mencetak hasil perhitungan total keuntungan selama 8 
+  bulan ke layar. Pesan ini juga mencantumkan jumlah keuntungan dalam bentuk mata uang (Rupiah).
 ## OUTPUT
 ![latihan3](https://github.com/Maullynn/labspy02/assets/144296695/3a50a321-8006-4fbc-9231-43accf3814ec)
 
