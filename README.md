@@ -32,5 +32,66 @@
 ## output
 ![Screenshot (213)](https://github.com/Maullynn/labspy02/assets/144296695/965ba697-7f4a-41e7-abf4-381da0822bd8)
 Dengan demikian, program akan menentukan bilangan terbesar di antara ketiga bilangan yang dimasukkan oleh pengguna dan mencetaknya ke layar.
+## labspy03
+- LATIHAN1 ****
+- import random: Ini adalah pernyataan untuk mengimpor modul random, yang digunakan untuk menghasilkan bilangan acak.
+- n = int(input("Masukkan nilai n: ")): Program ini meminta pengguna untuk memasukkan sebuah nilai n melalui keyboard. Nilai tersebut kemudian dikonversi menjadi integer 
+  (bilangan bulat) dan disimpan dalam variabel n.
+- count = 0: Variabel count diinisialisasi dengan nilai 0. Variabel ini akan digunakan sebagai penghitung untuk melacak berapa kali bilangan acak telah dihasilkan.
+- while count < n:: Ini adalah awal dari loop while. Kode dalam loop ini akan dieksekusi selama nilai count kurang dari n.
+- random_number = random.random(): Ini adalah pernyataan yang menghasilkan sebuah bilangan acak antara 0 dan 1 dengan menggunakan fungsi random.random() dari modul random. 
+  Hasilnya disimpan dalam variabel random_number.
+- if random_number < 0.5:: Program memeriksa apakah random_number kurang dari 0.5. Jika benar, maka bilangan tersebut akan dicetak.
+- print(random_number): Jika bilangan acak memenuhi kondisi sebelumnya (kurang dari 0.5), maka bilangan tersebut akan dicetak ke layar.
+## OUTPUT
+![latihan1](https://github.com/Maullynn/labspy02/assets/144296695/41cae835-436c-4be8-996e-fb8efb4f4ca2)
+## LATIHAN 2 ****
+- max_number = None: Variabel max_number diinisialisasi dengan nilai None. 
+  Ini digunakan untuk menyimpan bilangan terbesar yang akan dicari nantinya.
+- while True:: Ini adalah awal dari loop while yang akan berjalan tanpa 
+  henti (selama kondisinya True), sehingga program akan terus meminta 
+  pengguna untuk memasukkan bilangan.
+- input_number = float(input("Masukkan angka (0 untuk berhenti): "): 
+  Program meminta pengguna untuk memasukkan sebuah bilangan desimal. 
+  Bilangan yang dimasukkan oleh pengguna disimpan dalam variabel 
+  input_number setelah dikonversi menjadi float (bilangan riil).
+- if input_number == 0:: Program memeriksa apakah bilangan yang dimasukkan 
+  oleh pengguna adalah 0. Jika iya, maka program akan keluar dari loop 
+  while 
+  dengan pernyataan break, sehingga pengguna dapat menghentikan input 
+  dengan 
+ memasukkan 0.
+- if max_number is None or input_number > max_number:: Program memeriksa 
+  apakah nilai max_number saat ini adalah None (belum ada bilangan yang 
+  dimasukkan sebelumnya) atau apakah input_number lebih besar dari 
+  max_number yang sebelumnya. Jika salah satu kondisi ini terpenuhi, maka 
+  max_number akan diubah menjadi input_number.
+## OUTPUT
+![latihan2](https://github.com/Maullynn/labspy02/assets/144296695/d819effd-aabb-47cd-b9d8-689cd835d93f)
+## LATIHAN 3
+# Modal awal
+modal_awal = 100000000  # 100 juta
+# Inisialisasi total keuntungan
+total_keuntungan = 0
+# Bulan 1 dan 2
+total_keuntungan += 0  # Tidak ada laba pada bulan 1
+total_keuntungan += 0  # Tidak ada laba pada bulan 2
+# Bulan 3
+total_keuntungan += modal_awal * 0.01  # Laba 1% dari modal awal
+# Bulan 4
+total_keuntungan += 0  # Tidak ada peningkatan laba
+# Bulan 5
+total_keuntungan += modal_awal * 0.05  # Laba 5% dari modal awal
+# Bulan 6 dan 7
+total_keuntungan += 0  # Tidak ada peningkatan laba pada bulan 6 dan 7
+# Bulan 8
+total_keuntungan += modal_awal * 0.03  # Laba 3% dari modal awal
+# Total keuntungan selama 8 bulan
+print("Total Keuntungan selama 8 bulan adalah: Rp", total_keuntungan)
+## OUTPUT
+![latihan3](https://github.com/Maullynn/labspy02/assets/144296695/3a50a321-8006-4fbc-9231-43accf3814ec)
+
+
+
 ## pengerjaan
 ![Screenshot (212)](https://github.com/Maullynn/labspy02/assets/144296695/f7cbe81f-699c-4ae5-ac24-2ffbbdd296b7)
