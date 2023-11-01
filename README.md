@@ -33,7 +33,7 @@
 ![Screenshot (213)](https://github.com/Maullynn/labspy02/assets/144296695/965ba697-7f4a-41e7-abf4-381da0822bd8)
 Dengan demikian, program akan menentukan bilangan terbesar di antara ketiga bilangan yang dimasukkan oleh pengguna dan mencetaknya ke layar.
 ## labspy03
-- LATIHAN1 ****
+- LATIHAN1 
 - import random: Ini adalah pernyataan untuk mengimpor modul random, yang digunakan untuk menghasilkan bilangan acak.
 - n = int(input("Masukkan nilai n: ")): Program ini meminta pengguna untuk memasukkan sebuah nilai n melalui keyboard. Nilai tersebut kemudian dikonversi menjadi integer 
   (bilangan bulat) dan disimpan dalam variabel n.
@@ -45,7 +45,7 @@ Dengan demikian, program akan menentukan bilangan terbesar di antara ketiga bila
 - print(random_number): Jika bilangan acak memenuhi kondisi sebelumnya (kurang dari 0.5), maka bilangan tersebut akan dicetak ke layar.
 ## OUTPUT
 ![latihan1](https://github.com/Maullynn/labspy02/assets/144296695/41cae835-436c-4be8-996e-fb8efb4f4ca2)
-## LATIHAN 2 ****
+## LATIHAN 2 
 - max_number = None: Variabel max_number diinisialisasi dengan nilai None. 
   Ini digunakan untuk menyimpan bilangan terbesar yang akan dicari nantinya.
 - while True:: Ini adalah awal dari loop while yang akan berjalan tanpa 
