@@ -1,9 +1,9 @@
-| Variable       |    DATA DIRI     |
-| ---------------| ---------------- |
-| Nama           | Muhammad Maulana |
-| NIM            | 312310475        |
-| Kelas          | TI.23.A.5        |
-| Mata Kuliah    |Bahasa Pemrograman|
+                                                               | Variable       |    DATA DIRI     |
+                                                               | ---------------| ---------------- |
+                                                               | Nama           | Muhammad Maulana |                                          
+                                                               | NIM            | 312310475        |
+                                                               | Kelas          | TI.23.A.5        |
+                                                               | Mata Kuliah    |Bahasa Pemrograman|
 
 ## Installation environmet virtual(venv) & Deactivate di visual studio code
 - python - m venv praktikum3
