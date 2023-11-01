@@ -1,3 +1,10 @@
+| Variable       | Isi              |
+| ---------------| ---------------- |
+| Nama           | Muhammad Maulana |
+| NIM            | 312310475        |
+| Kelas          | TI.23.A.5        |
+| Mata Kuliah    | Bahasa Pemrograman |
+
 ## labspy02
 ## Pertama 
 program meminta pengguna untuk memasukkan tiga bilangan menggunakan input(), dan hasilnya disimpan dalam variabel bilangan1, bilangan2, dan bilangan3.
